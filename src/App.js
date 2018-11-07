@@ -42,7 +42,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <PageHeader> <img src="https://images.theconversation.com/files/193808/original/file-20171108-14177-b9ea8f.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1012&h=668&fit=crop" height="668px" width="1050px"/> </PageHeader>
+        <PageHeader> <img src="https://images.theconversation.com/files/193808/original/file-20171108-14177-b9ea8f.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1012&h=668&fit=crop" height="167px" width="253px"/>Our Meteor Tracker </PageHeader>
 
         <blockquote>
         <p>Throw your dreams into space like a kite, and you do not know what it will bring back, a new life, a new friend, a new love, a new country.</p>
@@ -50,11 +50,11 @@ class App extends Component {
 <table class="table table-striped table-hover ">
   <thead>
     <tr>
-       <th>Name</th>
-       <th>Estimated Diameter (feet)</th>
-       <th>Date of Closest Approach</th>
-       <th>Distance (miles)</th>
-       <th>Velocity (miles/hour)</th>
+       <th class="success">Name</th>
+       <th class="info">Estimated Diameter (feet)</th>
+       <th class="warning">Date of Closest Approach</th>
+       <th class="danger">Distance (miles)</th>
+       <th class="success">Velocity (miles/hour)</th>
     </tr>
   </thead>
   <tbody>
